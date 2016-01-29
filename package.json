@@ -1,0 +1,32 @@
+{
+  "name": "webdriverio-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for Selenium test with WebdriverIO",
+  "license": "MIT",
+  "author": "Hugo Dias <mail@hugodias.me> (http://hugodias.me/)",
+  "keywords": [
+    "selenium",
+    "webdriverio",
+    "tests",
+    "gulp"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "selenium-standalone install",
+    "test": "gulp test",
+    "start": "watch 'npm test'"
+  },
+  "devDependencies": {
+    "eslint": "1.10.3",
+    "eslint-config-halo": "0.1.4",
+    "gulp": "3.9.0",
+    "gulp-webdriver": "1.0.3",
+    "mocha": "2.4.4",
+    "selenium-standalone": "4.8.0",
+    "tape": "4.4.0",
+    "webdriverio": "3.4.0"
+  },
+  "eslintConfig": {
+    "extends": "halo"
+  }
+}
