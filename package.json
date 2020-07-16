@@ -17,7 +17,7 @@
     "start": "watch 'npm test'"
   },
   "devDependencies": {
-    "eslint": "1.10.3",
+    "eslint": "7.4.0",
     "eslint-config-halo": "0.1.4",
     "gulp": "3.9.0",
     "gulp-webdriver": "1.0.3",
